@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.png">
+    <title>Contact</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <div class="container-nav">
+        <div class="logo">
+            <a href="index.html" class="header-logo">
+                <picture>
+                    <img src="img/logo.png" class="logo-img" alt="">
+                </picture>
+            </a>
+        </div>
+        <div class="nav-wrapper">
+            <nav class="nav-list">
+                <div class="nav-item">
+                    <a href="about.html" class="nav-line">About</a>
+                    <a href="contact.html" class="nav-line">Contact</a>
+                </div> 
+        
+                <div class="some">
+                    <a href="https://www.instagram.com/selma.tagel/"  target="_blank"  class="some-icon-i nav-line">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://dribbble.com/Selma_Tagel/shots"  target="_blank" class="some-icon-d nav-line">
+                        <i class="fa-brands fa-dribbble"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <hr>
+    
+    <!-- Body content -->
+    <div class="main">
+        <div class="contact-formular">
+            <div class="dont-be-shy">
+                <h1>Don't be shy - Let's get in touch</h1>
+            </div>
+            
+            <div class="flexbox-info"> 
+                <form id="contact-form" class="contact" action="https://formsubmit.co/5114c88970c1aab63cf5be5ffc49f118" method="POST">
+                    <div class="info">
+                        <input type="hidden" name="contact-n">
+                        <input type="text" name="user-name" id="name" required placeholder="Name *">
+                        <input type="text" name="user-email" id="email" required placeholder="E-mail *">
+                    </div>
+                    <br>
+                    <textarea name="subject" id="subject" cols="37" rows="2" required placeholder="Subject *"></textarea>
+                    <br>
+                    <textarea name="message" id="message" cols="60" rows="14.5" required placeholder="Message *"></textarea>
+                    <br>
+                    <input id="send" type="submit" value="Send">
+                </form>
+
+                <div class="info-pic">
+                    <img src="img/protrait.jpeg" class="img-info">
+                </div>
+            </div> 
+
+            <div class="my-info">
+                <h2><strong>or find me here:</strong> </h2>
+            </div> 
+            <div class="info-flex">
+                <a href="mailto:cph-st225@cphbusiness.dk" class="info-equal">cph-st225@cphbusiness.dk</a>
+                <a href="mailto:selma.tagel@gmail.com" class="info-equal">selma.tagel@gmail.com</a>
+                <a href="tel:+4552422220" class="info-equal">+45 52 42 22 20</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer - icons -->
+    <footer>
+        <div class="footer">
+            <a href="https://www.instagram.com/selma.tagel/"  target="_blank"  class="some-i">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://dribbble.com/Selma_Tagel/shots"  target="_blank"  class="some-d">
+                <i class="fa-brands fa-dribbble"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
